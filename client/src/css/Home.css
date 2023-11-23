@@ -37,7 +37,7 @@
     border-radius: 4px;
   }
   
-  button {
+  .btnIngresar {
     background-color: #4caf50; /* Color de fondo del botón */
     color: #fff; /* Color del texto del botón */
     padding: 10px 15px;

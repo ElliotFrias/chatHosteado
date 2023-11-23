@@ -300,7 +300,7 @@ function Chat() {
               />
               <div className="right-messages">
                 <button type="submit" className="btn-send">
-                  <LuSendHorizonal className="img" />
+                  <LuSendHorizonal/>
                 </button>
               </div>
             </div>

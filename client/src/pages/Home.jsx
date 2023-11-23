@@ -20,7 +20,7 @@ function Home() {
       <form className="formHome" onSubmit={handleSubmit}>
         <p>Ingresa un nombre de usuario</p>
         <input type="text" required="required" onChange={(e) => setUserName(e.target.value)}></input>
-        <button type="submit">Empieza a chatear</button>
+        <button type="submit" className='btnIngresar'>Empieza a chatear</button>
       </form>
     </div>
   )
