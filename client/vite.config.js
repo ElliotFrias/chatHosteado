@@ -1,5 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
+import dotenv from 'dotenv'
+
+dotenv.config()
+
+const TARGET = process.env.ORIGIN
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -7,7 +12,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/socket.io': {
-        target: 'http://localhost:3000',
+        target: TARGET,
         ws: true,
       },
     },
